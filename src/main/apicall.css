@@ -81,7 +81,7 @@ header .navbar a {
   border-radius: 2rem;
 }
 .container .data .profile:hover {
-  background-color: crimson;
+  background-color: lightpink;
 }
 
 .container .data .profile .image {
