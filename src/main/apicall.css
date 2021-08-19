@@ -1,13 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
 
 * {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.2s linear;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  transition: all 0.2s linear;
-  text-decoration: none;
 }
+
+.container .data .profile {
+  font-size: 2rem;
+  background-color: black;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.container .data .profile:hover {
+  background-color: lightpink;
+}
+
+.container .data .profile .image {
+  text-align: center;
+}
+
+.container .data .profile .image img {
+  border-radius: 50%;
+}
+
+.container .data .profile p {
+  margin-top: 3rem;
+  color: wheat;
+  text-align: center;
+}
+
 
 html {
   font-size: 62.5%;
@@ -74,29 +99,6 @@ header .navbar a {
   width: 100%;
 }
 
-.container .data .profile {
-  font-size: 2rem;
-  background-color: black;
-  padding: 2rem;
-  border-radius: 2rem;
-}
-.container .data .profile:hover {
-  background-color: lightpink;
-}
-
-.container .data .profile .image {
-  text-align: center;
-}
-
-.container .data .profile .image img {
-  border-radius: 50%;
-}
-
-.container .data .profile p {
-  margin-top: 3rem;
-  color: wheat;
-  text-align: center;
-}
 
 @media (max-width: 600px) {
   .container,
