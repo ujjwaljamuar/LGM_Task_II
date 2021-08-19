@@ -1,9 +1,16 @@
-import React, { useState } from 'react';
-import './apicall.css';
 import { FaAdn } from 'react-icons/fa';
+
 import CircularProgress from '@material-ui/core/CircularProgress';
 
+import './api.css';
+
+import React, { useState } from 'react';
+
+
+
+
 function UserCard() {
+
   const [detail, setDetail] = useState([]);
 
   const [isLoading, setLoading] = useState(false);

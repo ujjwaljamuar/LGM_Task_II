@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import UserCard from './main/apicall';
+import UserCard from './main/api';
 
 function App() {
   return (
