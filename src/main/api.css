@@ -16,7 +16,7 @@
   border-radius: 2rem;
 }
 .container .data .profile:hover {
-  background-color: lightpink;
+  background-color: darkkhaki;
 }
 
 .container .data .profile .image {
@@ -47,7 +47,7 @@ header {
   size: 10px;
 
   box-shadow: 0 0.5rem 1.5rem rgba(241, 239, 239, 0.178);
-  background-color: lightpink;
+  background-color: darkcyan;
   margin-bottom: 5px;
   width: 100%;
 }
@@ -84,7 +84,7 @@ header .navbar a {
 }
 
 .UserCard button:hover {
-  background-color: lightcoral;
+  background-color: darkkhaki;
   color: beige;
   cursor: pointer;
 }
